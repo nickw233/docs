@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 90vw;
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.controls input[type="file"] {
+    flex-grow: 1;
+}
+
+.controls button,
+.controls label {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background-color: #e7e7e7;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #dcdcdc;
+}
+
+.controls input[type="range"] {
+    flex-grow: 1;
+}
+
+.image-container {
+    width: 100%;
+    height: 70vh;
+    /* Adjust as needed */
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    display: flex;
+    /* For centering the image if it's smaller than the container */
+    justify-content: center;
+    /* Center horizontally */
+    /* align-items: flex-start; /* Align to top */
+}
+
+#sheetMusicImage {
+    display: block;
+    max-width: none;
+    /* Allow image to be wider than container for zoom */
+    /* height: auto; */
+    /* Maintain aspect ratio, but can cause issues with fixed height container */
+    transform-origin: top center;
+    /* Zoom from the top center */
+}
