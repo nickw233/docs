@@ -1,0 +1,1 @@
+const i={visible:!0,style:{fontSize:12,fill:"#B9B8CE",fontFamily:"SimSun",fontWeight:"normal",angle:0}},e={visible:!0,style:{text:"",fontSize:12,fill:"#B9B8CE",fontFamily:"SimSun",fontWeight:"normal"}},t={visible:!1,style:{lineWidth:1,stroke:"#D5D7E2"}},l={visible:!0,style:{lineWidth:1,stroke:"#FFFFFF24"}},n={visible:!0,label:i,title:e,domainLine:t,grid:l};export{n as a};
